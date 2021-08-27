@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="istanbul">Istanbul</string>
+    <string name="monday_16_july">Monday, 16 July</string>
+    <string name="partly_rainy_sunny">Partly Rainy/Sunny</string>
+    <string name="_25">25</string>
+    <string name="_9_km_h">9 km/h</string>
+    <string name="_30">30%</string>
+    <string name="_1_4_km">1.4 km</string>
+    <string name="today">Today</string>
+    <string name="_11_00">11:00</string>
 </resources>
