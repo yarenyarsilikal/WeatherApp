@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_150"
+    android:layout_height="@dimen/dimen_150"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_8"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvDegree"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_25"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_weight="1"
+            android:layout_width="@dimen/dimen_100"
+            android:layout_height="@dimen/dimen_100"
+            android:layout_gravity="center"
+            app:lottie_speed="1"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="weather_day_shower_rains.json"
+            app:lottie_loop="true"
+            app:lottie_repeatMode="restart" />
+        <TextView
+            android:id="@+id/tvHour"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_11_00"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
